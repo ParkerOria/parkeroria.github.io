@@ -60,6 +60,7 @@ a:hover {
 
 .logo {
     font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .logo:hover {
@@ -336,12 +337,13 @@ section {
     flex-direction: row;
     gap: 2.5rem;
     justify-content: space-around;
+
 }
 
 article {
     display: flex;
+    align-items: flex-start;
     width: 10rem;
-    justify-content: space-around;
     gap: 0.5rem;
 }
 
