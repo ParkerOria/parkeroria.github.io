@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Please say yes</title>
+    <style>
+        :root { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+        body { display:flex; align-items:center; justify-content:center; height:100vh; margin:0; background:#f7f9fc; }
+        .card { text-align:center; background:#fff; padding:2rem; border-radius:12px; box-shadow:0 6px 20px rgba(20,30,50,.08); min-width:280px; }
+        h1 { margin:0 0 1rem; font-size:3rem; color:#10203a; }
+        .buttons { 
+    display:flex; 
+    gap:.75rem; 
+    justify-content:center; 
+    margin-top: 1rem;
+}
+
+button {
+    padding: 20px 40px;
+    font-size: 40px;
+    border-radius:8px;
+    border:1px solid transparent;
+    font-weight:600;
+    cursor:pointer;
+    transition: transform 0.1s ease-out;
+}
+
+#growButton {
+    background:#16a34a; 
+    color:#fff;
+}
+
+#shrinkButton {
+    background:#ef4444; 
+    color:#fff;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="card" role="region" aria-label="Yes No example">
+        <h1>Will you be my valentine?</h1>
+        
+        <div class="buttons">
+            
+            <button id="growButton" type="button" aria-pressed="false">Yes</button>
+            <button id="shrinkButton" type="button" aria-pressed="false">No</button>
+        </div>
+        <div id="result" aria-live="polite"></div>
+    </div>
+    <script src="valscript.js"></script>
+    <script>
+    const yesBtn = document.getElementById('growButton');
+    const noBtn = document.getElementById('shrinkButton');
+    const buttonsDiv = document.querySelector('.buttons');
+    const card = document.querySelector('.card');
+
+    yesBtn.addEventListener('click', () => {
+        // Hide the buttons
+        buttonsDiv.style.display = "none";
+
+        card.innerHTML = `
+            <h1>I Love You!</h1>
+            <img src="val.png" 
+                 alt="I LOVE YOU" 
+                 style="max-width:45%; border-radius:12px; margin-top:1rem;">
+            <h3>Dear Kayla,</h3>
+            <p>Happy Valentine's Day! Thank you for being my valentine 💓</p>
+            <p>Congratulations for  5️⃣ amazing months! Thank you for always supporting me and listening to me rant.</p>
+            <p>Because of you, my start of the year has been the best I've ever had.</p>
+            <p>Here's to continuing the best year with you by my side!</p>
+            <p></p>
+            <p>Your Angel, Parker ❤️</p>
+        `;
+    });
+</script>
+
+</body>
+</html>
