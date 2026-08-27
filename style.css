@@ -313,8 +313,9 @@ section {
 }
 
 /*EXPERIENCE*/
+#Extracurriculars,
 #experience {
-    position:relative
+    position: relative;
 }
 
 .experience-sub-title {
@@ -357,6 +358,10 @@ article .icon {
     position: relative;
 }
 
+#projects .about-containers {
+    flex-wrap: wrap;
+}
+
 .color-container {
     border-color: rgb(163, 163, 163);
     background: rgb(250, 250, 250);
@@ -377,6 +382,7 @@ article .icon {
     color: black;
     border-color: rgb(163, 163, 163);
 }
+
 
 /* CONTACT */
 
