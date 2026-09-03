@@ -14,9 +14,9 @@
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#Extracurriculars">Extracurriculars</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Skills</a></li>
+                <li><a href="#Extracurriculars">Extracurriculars</a></li>
                 <li><a href="#contact">Contact</a></li>
 
             </ul>
@@ -33,7 +33,7 @@
             <div class="menu-links"> <!--here !!!-->
                 <!-- <ul> -->
                     <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
                     <li><a href="#Extracurriculars" onclick="toggleMenu()">Extracurriculars</a></li>
                     <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                     <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
@@ -48,7 +48,7 @@
         <div class="section_text">
             <p class="section__text__p1">Hello, I'm</p>
             <h1 class="title">Parker Oria</h1>
-            <p class="section__text__p2">Cyber Security</p>
+            <p class="section__text__p2">Web Security</p>
             <div class="btn-container">
                 <button class="btn btn-color-2" 
                 onclick="window.open('./assets/ParkerOriaCybersecurityCV.pdf')">Download CV
@@ -65,6 +65,8 @@
             </div>
         </div>
     </section>
+
+
     <section id="about">
         <p class="section__text__p1">Get To Know More</p>
         <h1 class="title">About Me</h1>
@@ -75,32 +77,121 @@
             </div>
             <div class="about-details-container">
                 <div class="about-containers">
-                    <!-- <div class="details-container">
-                        <img src="./assets/experience.png" alt="Experience Icon"
+                    <div class="details-container">
+                        <img src="./assets/raise.png" alt="Experience Icon"
                         class="icon">
-                        <h3>Experience</h3>
-                        <p>2+ years <br />Frontend Development</p>
-                    </div> -->
+                        <h3>Project RAISE</h3>
+                        <p>Since January 2026<br />Peer Advisor</p>
+                    </div>
                     <div class="details-container">
                         <img src="./assets/education.png" alt="Education Icon"
                         class="icon">
                         <h3>Education</h3>
-                        <p>B.S. in Computer Science - Cyber Security <br />California State University: Fullerton</p>
+                        <p>B.S. in Computer Science<br/>Concentration in <b>Cyber Security</b><br/>California State University Fullerton</p>
+                        <p><i>Expected May 2027</i></p>
                     </div>
                 </div>
                 <div class="text-container">
-                    <p>Originally from the Bay Area and currently attending California State University: Fullerton (Expected graduation May 2027) 
+                    <p>Originally from the Bay Area and currently attending California State University Fullerton
                         pursuing my degree in Computer Science with a concentration in Cyber Security. Hoping to work in network security, 
                         my next step is completing my degree and becoming certified with COMPTIA Security +.</p>
                 </div>
             </div>
         </div>
         <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow"
-        onclick="location.href='./#experience'">
+        onclick="location.href='./#projects'">
     </section>
+
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+
+                <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/glasses.png" alt="Smart Glasses" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Smart Glasses</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ParkerOria/smart-glasses'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://lnkd.in/p/gvuU7RFR'">
+                        Overview
+                    </button>
+                </div>
+            </div>
+
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/brickgen.png" alt="Brick Gen App" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Brick Gen</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ParkerOria/legosetgenerator'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.youtube.com/watch?v=1i6HNLSbs04'">
+                        Video Overview
+                    </button>
+                </div>
+            </div>
+                
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/frozenfunctions.png" alt="Frozen Functions App" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Frozen Functions</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/DanielAkala/FrozenFunctions/'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://youtu.be/mMD1Al7eEjk'">
+                        Video Walkthrough
+                    </button>
+                </div>
+            </div>            
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/drone.png" alt="Mini Drone" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Mini Drone</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ParkerOria/Mini-Drone'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://photos.app.goo.gl/c9G4MzigbrqmJKjE8'">
+                        Video
+                    </button>
+                </div>
+            </div>
+
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/nudeck.png" alt="Nu Deck" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Pokemon Style Game Console</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Kentalope22/Nu-Deck'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://docs.google.com/presentation/d/1qxo1MTdwLvrgR8U8x-YYvvneytEV_C1uG8JdWV0qhkM/present?usp=sharing'">
+                        Summary
+                    </button>
+                </div>
+            </div>
+        </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow"
+        onclick="location.href='./#experience'">
+            </section>
+
+        
+
     <section id="experience">
         <p class="section__text__p1">Explore My</p>
-        <h1 class="title">Experience</h1>
+        <h1 class="title">Skills</h1>
         <div class="experience-details-container">
             <div class="about-containers">
                 <div class="details-container">
@@ -242,7 +333,7 @@
                             <img src="./assets/ThetaTau.png" alt="Experience Icon" class="icon">
                             <div>
                                 <h3>Brotherhood - Appointed Board</h3>
-                                <p>1 Semesters</p>
+                                <p>1 Semester</p>
                             </div>
                         </article>
                         <article>
@@ -276,101 +367,17 @@
             </div>
         </div>
         <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow"
-        onclick="location.href='./#projects'">
-    </section>
-
-    <section id="projects">
-        <p class="section__text__p1">Browse My Recent</p>
-        <h1 class="title">Projects</h1>
-        <div class="experience-details-container">
-            <div class="about-containers">
-
-                <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="./assets/glasses.png" alt="Smart Glasses" class="project-img">
-                </div>
-                <h2 class="experience-sub-title project-title">Smart Glasses</h2>
-                <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ParkerOria/smart-glasses'">
-                        Github
-                    </button>
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://lnkd.in/p/gvuU7RFR'">
-                        Overview
-                    </button>
-                </div>
-            </div>
-
-            <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="./assets/brickgen.png" alt="Brick Gen App" class="project-img">
-                </div>
-                <h2 class="experience-sub-title project-title">Brick Gen</h2>
-                <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ParkerOria/legosetgenerator'">
-                        Github
-                    </button>
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.youtube.com/watch?v=1i6HNLSbs04'">
-                        Video Overview
-                    </button>
-                </div>
-            </div>
-                
-            <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="./assets/frozenfunctions.png" alt="Frozen Functions App" class="project-img">
-                </div>
-                <h2 class="experience-sub-title project-title">Frozen Functions</h2>
-                <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/DanielAkala/FrozenFunctions/'">
-                        Github
-                    </button>
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://youtu.be/mMD1Al7eEjk'">
-                        Video Walkthrough
-                    </button>
-                </div>
-            </div>
-            
-            <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="./assets/drone.png" alt="Mini Drone" class="project-img">
-                </div>
-                <h2 class="experience-sub-title project-title">Mini Drone</h2>
-                <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ParkerOria/Mini-Drone'">
-                        Github
-                    </button>
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://photos.app.goo.gl/c9G4MzigbrqmJKjE8'">
-                        Video
-                    </button>
-                </div>
-            </div>
-
-            <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="./assets/nudeck.png" alt="Nu Deck" class="project-img">
-                </div>
-                <h2 class="experience-sub-title project-title">Pokemon Style Game Console</h2>
-                <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Kentalope22/Nu-Deck'">
-                        Github
-                    </button>
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://docs.google.com/presentation/d/1qxo1MTdwLvrgR8U8x-YYvvneytEV_C1uG8JdWV0qhkM/present?usp=sharing'">
-                        Summary
-                    </button>
-                </div>
-            </div>
-        </div>
-        </div>
-        <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow"
         onclick="location.href='./#contact'">
     </section>
+
+    
     <section id="contact">
         <p class="section__text__p1">Get in Touch</p>
         <h1 class="title">Contact Me</h1>
         <div class="contact-info-upper-container">
             <div class="contact-info-container">
                 <img src="./assets/email.png" alt="Email Icon" class="icon contact-icon email-icon">
-                <p><a href="mailto:parkeroria22@gmail.com">parkeroria22@gmail.com</a></p>
+                <p><a href="mailto:iam@parkeroria.com">iam@parkeroria.com</a></p>
             </div>
             <div class="contact-info-container">
                 <img src="./assets/linkedin.png" alt="LinkedIn Icon" class="icon contact-icon">
@@ -383,14 +390,14 @@
             <div class="nav-links-container">
                 <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#Extracurriculars">Extracurriculars</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Skills</a></li>
+                <li><a href="#Extracurriculars">Extracurriculars</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             </div>
         </nav>
-        <p>Copyright &#169; 2025 Parker Oria. All Rights Reserved.</p>
+        <p>Copyright &#169; 2026 Parker Oria. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
 </body>

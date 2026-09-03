@@ -312,6 +312,10 @@ section {
     margin: auto 0;
 }
 
+.icon {
+    cursor: default;
+}
+
 /*EXPERIENCE*/
 #Extracurriculars,
 #experience {
